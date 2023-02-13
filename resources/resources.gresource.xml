@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/f-omega/tunnelhound/">
+<!--    <file compressed="true" preprocess="xml-stripblanks">ui/device_row.ui</file> -->
+    <file compressed="true" preprocess="xml-stripblanks">ui/main_window.ui</file>
+  </gresource>
+</gresources>

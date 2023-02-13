@@ -1,0 +1,19 @@
+[package]
+name = "tunnelhound-ui-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+adw = { version = "0.3.0", package = "libadwaita", features = ["gtk_v4_6"] }
+gio = { version = "0.17.0", features = ["v2_74"] }
+glib = { version = "0.17.0", features = ["v2_74"] }
+gtk = { version = "0.6.0", package = "gtk4", features = ["v4_8"] }
+gtk4-macros = "0.6.0"
+libffi = { version = "3.1.0", features = ["system"] }
+
+[build-dependencies]
+glib-build-tools = "0.17.0"
+pkg-config = "0.3.26"
+#libappindicator = "0.8.0"
